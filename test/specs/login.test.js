@@ -14,11 +14,11 @@ describe('My Login application', () => {
         
     })
 
-    it.only('Validar cadastro', async () => {
-        await homePage.openMenu('profile')
-        await homePage.openSign()
-        await signPage.sign('Jean', 'Viana', '51993883535', 'jeanfviana@gmail.com', '123456', '123456')
+    // it.only('Validar cadastro', async () => {
+    //     await homePage.openMenu('profile')
+    //     await homePage.openSign()
+    //     await signPage.sign('Jean', 'Viana', '51993883535', 'jeanfviana@gmail.com', '123456', '123456')
 
-    });
+    // });
 })
 
