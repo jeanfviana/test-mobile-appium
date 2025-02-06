@@ -7,7 +7,7 @@ import signPage from '../pageobjects/sign.page'
 describe('My Login application', () => {
     it('should login with valid credentials', async () => {
         await homePage.openMenu('profile')
-        await loginPage.login('cliente@ebac.art.br', 'GD*peToHNJ1#c$sgk08EaYJQ')
+        await loginPage.login('jeanfviana@hotmail.com', 'GD*peToHNJ1#c$sgk08EaYJQ')
         await homePage.openMenu('profile')
         expect ((await profilePage.profileName('ebac cliente')).isDisplayed()).toBeTruthy()
         //await driver.pause(10000)
